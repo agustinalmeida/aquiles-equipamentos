@@ -1,0 +1,74 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body{
+	font-family: 'Cabin', sans-serif;
+}
+.bg-mash{
+	background-image: url(../img/mesh.png);
+}
+.container {
+	max-width: 1230px;  
+}
+h1, h2, h3, p, .navbar-expand-md .navbar-nav .nav-link{
+	color: #6D6E71;
+}
+
+h1{
+	color: #8c000c;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+nav .navbar-brand{
+	background: #fff;
+    margin-left: 16px;
+}
+
+nav .navbar-brand img{
+    padding: 15px 17px 11px;
+}
+
+nav .navbar-brand:after{
+	content: ' ';
+	 width: 0;
+      height: 0;
+      border-top: 41px solid transparent;
+      border-left: 10px solid #fff;
+      border-bottom: 41px solid transparent;
+
+	position: absolute;
+	top: 0;
+}
+
+.social-links{
+    margin-left: 27px;
+    font-size: 20px;
+    margin-right: 12px !important;
+}
+.social-links li{}
+.social-links li a{
+	padding: 5px;
+	color: #000;
+}
+
+
+.slide img{
+	width: 100%;
+}
+
+.separate{
+	position: relative;
+	width: 100%;
+	height: 20px;
+	background-image: url(../img/mesh.png);
+}
+
+@media (min-width: 1024px){
+	
+}
+@media (max-width: 1024px){
+	
+}
+
